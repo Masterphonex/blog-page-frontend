@@ -17,34 +17,43 @@ body{
 
 
 .container{
-    width: 350px;
     background: #fff;
     border-radius: 10px;
-    padding: 1px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding:15px;
+    box-shadow: 5px 5px black;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
     border: 1px solid black;
 }
 
-img{
-    width: 100%;
-    margin-top:5px;
-    height: 200px;
-    border-radius: 20px;
+.image{
+    width: 260px;
+    height: 150px;
+    background-image: url('./assets/images/illustration-article.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 button{
     padding: 2px 2px;
     background:hsl(47, 88%, 63%);
     color: black;
-    font-weight: bold;
-
+    font-weight: bolder;
+    width: 78px;
+    height: 22px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
+    font-size: 11px;
+}
+
+.pub{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -3px;
+    color: hsl(0, 0%, 42%);
 }
 
 h1{
@@ -52,6 +61,18 @@ h1{
     font-size: larger;
     margin-bottom: 10px;
     text-align: center;
+    margin-top: -19px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.text{
+    margin-top: -17px;
+    font-size: 10px;
+    max-width: 260px;
+    color: hsl(0, 0%, 20%);
+    line-height:19px;
+
 }
 
 
@@ -70,6 +91,6 @@ h1{
 
 .author h3{
     margin: 0;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
 }
